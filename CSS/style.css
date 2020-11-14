@@ -1,0 +1,14 @@
+#movies img,
+#movie img {
+    width: 100%;
+    background-color: blue;
+}
+
+@media screen and (min-width: 450px) {
+    #movies .col-md-3 .well {
+        height: 350px;
+    }
+    #movies .col-md-3 img {
+        height: 200px;
+    }
+}
